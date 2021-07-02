@@ -12,8 +12,6 @@ class AdjVertex():
 		self.vertex = data
 		self.next = None
     
-
-
 class Graph():
 
 	def __init__(self, vertices):
@@ -40,8 +38,8 @@ class Graph():
 
 
 
-
-
+		
+		
 class Node:
 
 
@@ -366,7 +364,7 @@ class CarbonNet(Star, Circle, Spindle, Drop):
 	class TinyCell(Star, Circle, Spindle, Drop):
 
 
-		#the Stars created inside the star class will be different objects and 
+		#the Stars created inside the Star class will be different objects and 
 		#the instances of the Star subclass every time the Star class is instantiated and
 		# its subclasses are called 
 
@@ -460,7 +458,6 @@ class CarbonNet(Star, Circle, Spindle, Drop):
 							arg1.bond5 = self
 
 							return arg1
-
 
 
 						def create_the_shell1(self):
